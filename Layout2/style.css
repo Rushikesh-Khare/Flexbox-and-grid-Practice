@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+}
+:root {
+    font-size: 10px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0.3rem;
+    border-radius: 4rem;
+}
+
+.navigation__link {
+    color: white;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    transition: all 0.25s ease-in;
+    font-size: 1.5rem;
+}
+
+.navigation__link:hover {
+    background-color: black;
+    color: aqua;
+}
+
+ 
